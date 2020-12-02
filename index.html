@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
+   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="styles.nigeria.css">
 </head>
 <body>
@@ -22,12 +24,14 @@
         <a href="#"><button class="btn2">Register</button></a>
         </div>
     </header>
+    <!--header,navbar and top buttons-->
     
-    <section class="banner">
-        <img src="images/Africa-DRM-Banner-4.png" width="1300px" height="600px">
+    <div >
+        <img src="images/Africa-DRM-Banner-4.png" alt="banner" class="banner">
+        <h2 class="text">Know your rep!</h2>
+    </div>
+    <!--banner-->
 
-    </section>
-    <br>
         <div class="container">
             <form>
                 <div class="search">
@@ -91,7 +95,7 @@
                 
                 <div class="row1">
                     <div class="col_3">
-                        <label for="local government">Local Government</label>
+                        <label for="local government">Local Government Areas:</label>
                     </div>
                     <div class="col_4">
                         <select id="state" name="state">
@@ -874,17 +878,36 @@
 
                 
             </div>
-                <div class="row">
+            
+                    <div class="row_2">
+                        <div class="col_5">
+                        <label for="wards">Wards:</label>
+                        </div>
+                        <div class="col_6">
+                            <select id="wards" name="wards">
+                                <option></option>
 
-                    <input type="Search" value="Search">
+
+
+
+
+
+                            </select>
+                            <!--data-->
+
+                        </div>
+                    </div>
                 </div>
 
-            
+                
+        
             </div>
+            <!--
+        <div>
+        <a href="#"><button class="submit">Log-in</button></a>
             </form>
-
-
-        </div>
+</div>
+-->
        <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="/__/firebase/8.1.1/firebase-app.js"></script>
 
